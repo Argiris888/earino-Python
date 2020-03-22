@@ -11,7 +11,7 @@ print(a_list)
 #a='argiri'
 #print(f'ela spiti {a} ')
 a=3145
-mynewtext=('ela ree {}')
+mynewtext=('ela re {}')
 my2newtext=mynewtext.format(a)
 print(my2newtext)
 #mytext=str('einai iso me {:.4f}')
