@@ -1,6 +1,8 @@
-import numpy as np
-#randomlist=np.random.randint(1,156,10)
-#new=np.reshape(randomlist,(2,5))
-#print(int(new))
-mylist=[2,5,6]
-print(str(str(mylist).strip('[]')))
+
+list = [
+ {'Key1': 'Value1', 'Key2': 'Value2'},
+ {'Key1': 'Value1', 'Key2': 'Value2'}
+ ]
+
+for i in list:
+ print('Key1: ', i['Key1'], 'Key2: ', i['Key2'])
